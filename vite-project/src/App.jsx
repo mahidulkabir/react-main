@@ -1,22 +1,17 @@
 
-import FirstPage from "./FirstPage"
-import SecondPage from "./SecondPage"
-
-
+import StudentTable from './StudentTable';
 
 function App() {
-  
+
 
   return (
     <>
-      <h1>Hello World</h1>
-      <p style={{ color: 'blue' }}>Osman vai valo </p>
 
-    <FirstPage />
-    <h2>This is from main page</h2>
-
-    <SecondPage />
-
+    <div className="text-center">
+      <h1 className="text-4xl font-bold">This is my heading</h1>
+      <p className="text-lg font-medium">This is used for testing purpose of react components</p>
+      <StudentTable/>
+    </div>
     </>
   )
 }
