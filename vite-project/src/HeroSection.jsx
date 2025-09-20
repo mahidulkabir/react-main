@@ -3,7 +3,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <div className="mt-20">
-      <h1 className="text-3xl font-bold">These Are Products</h1>
+      <h1 className="text-3xl font-bold">This is hero section</h1>
 
       <div className="hero bg-base-200 min-h-[300px] w-1/2 mx-auto mt-5">
         <div className="hero-content flex-col lg:flex-row">
@@ -18,7 +18,7 @@ const HeroSection = () => {
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
               et a id nisi.
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <button className="btn btn-primary">Get Started Now</button>
           </div>
         </div>
       </div>

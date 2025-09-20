@@ -2,6 +2,7 @@
 import HeroSection from './HeroSection';
 import ProductCard from './ProductCard';
 import StudentTable from './StudentTable';
+import TestingCSS from './TestingCSS';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <StudentTable/>
       <ProductCard/> 
       <HeroSection/>
+      <TestingCSS/>
     </div>
     </>
   )
